@@ -30,7 +30,7 @@ export default function Home() {
                 <div className='absolute inset-y-0 right-0 flex items-center px-2'>
                   <EyeIcon className='h-4 w-4 text-teal-600 mt-1 ml-1'/> 
                 </div>
-                <input className='text-sm justify-betweenborder rounded-md w-full h-9 py-2 px-3 bg-teal-50 text-gray-400 focus:outline-teal-500' id="username" type="show ? 'password' : 'text'" placeholder='Type something' />
+                <input className='text-sm justify-between border rounded-md w-full h-9 py-2 px-3 bg-teal-50 text-gray-300 focus:outline-teal-500' id="username" type="password" placeholder='Type something...' />
               </div>
             </div>
             <div className='mt-8 tracking-wide'>
