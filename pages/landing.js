@@ -10,7 +10,7 @@ export default function landing() {
       </div>
       <div className=" flex justify-center content-center">
         <div className="spin w-96 mt-8 md:mt-24">
-          <img src="../topl-Ribn-icon-large.png" className="z-30"  />
+          <img src="../topl-Ribn-icon-large.png" className=""  />
         </div>
       </div>
       <div className=''>
