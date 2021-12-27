@@ -14,7 +14,7 @@ export default function Home() {
             <img src="./topl-Ribn-icon-large.png" className="w-28" />
           </div>
           <div className="text-lg text-center my-6 mx-12">
-            Topl's blockchain wallet for tracking, tokenizing, and transcation impact. 
+            {"Topl\'s blockchain wallet for tracking, tokenizing, and transcation impact. "}
           </div>
         </div>
       </div>
