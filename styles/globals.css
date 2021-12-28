@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .spin :hover {
-  animation: coin-rotate 1.5s ease-in-out;
+  animation: coin-rotate 1.5s linear infinite;
 }
 
 @keyframes coin-rotate {
