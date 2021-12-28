@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 .spin :hover {
-  animation: coin-rotate 2s linear infinite;
+  animation: logo-rotate 2s ease-in-out;
 }
 
-@keyframes coin-rotate {
+@keyframes logo-rotate {
   from {
     transform: rotateY(0);
   }
@@ -14,6 +14,7 @@
   to {
     transform: rotateY(360deg);
   }
+  
 }
 
 .flip-image {
