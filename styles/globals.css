@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.spin {
-  animation: coin-rotate 5s linear infinite;
+.spin :hover {
+  animation: coin-rotate 1.5s ease-in-out;
 }
 
 @keyframes coin-rotate {
