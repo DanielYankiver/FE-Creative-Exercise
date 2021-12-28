@@ -10,17 +10,17 @@ export default function landing() {
       <div> 
         <Header />
       </div>
-      <div className=" flex justify-center content-center">
+      <div className=" flex justify-center content-center z-10">
         <div className="flip-image absolute top-20 hidden md:block">
           <img src="../cloudz.gif" className="md:w-screen"/>
         </div>
-        <div className="md:spin z-10">
+        <div className="md:spin z-30">
           <div className="spin w-96 mt-8 md:mt-24">
             <img src="../topl-Ribn-icon-large.png" className="w-full"  />
           </div>
         </div>
       </div>
-      <div className=''>
+      <div className="z-20">
         <div className="absolute bottom-0">
           <img src="https://imagedelivery.net/nADYkEXSJPd0UjYrv7RXLw/839cfbf9-e1e0-4781-5ba3-b95963451e00/public" className="w-full"/>
         </div>
