@@ -6,6 +6,7 @@ export default function originalhs() {
   return(
     <div className="w-full h-screen bg-teal-100">
       <div className='flex justify-center'>
+      {/* <div className= 'border border-black rounded-md mt-16 w-2/5 flex-col align-middle'> */}
         <div className='mt-16 w-full md:w-3/5 lg:w-2/5 flex-col align-middle'>
           <div className='text-4xl text-center mt-6 lg:mt-10 mb-6'>Ribn Wallet</div>
           <div className='flex justify-center my-6'>
@@ -26,7 +27,7 @@ export default function originalhs() {
                 <div className='absolute inset-y-0 right-0 flex items-center px-2'>
                   <EyeIcon className='h-4 w-4 text-gray-700 mt-1 ml-1'/> 
                 </div>
-                <input className='text-sm justify-between border rounded-md w-full h-10 py-2 px-3 text-gray-600 focus:outline-teal-500' id="username" type="show ? 'password' : 'text'" placeholder='Type something' />
+                <input className='text-sm justify-between border rounded-md w-full h-10 py-2 px-3 text-gray-400 focus:outline-teal-500' id="username" type="show ? 'password' : 'text'" placeholder='Type something' />
               </div>
             </div>
             <div className='mt-8'>
