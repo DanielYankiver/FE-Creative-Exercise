@@ -13,7 +13,7 @@ export default function originalhs() {
             <img src='./topl-Ribn-icon-large.png' className='w-28' />
           </div>
           <div className='text-lg text-center my-6 mx-2 md:mx-12'>
-            {'Topl\'s blockchain wallet for tracking, tokenizing, and transaction impact. '}
+            {'Topl\'s blockchain wallet for tracking,'} <br/> {'tokenizing, and transaction impact. '}
           </div>
           <form className='mx-8 my-16'>
             <div className='mb-4'>

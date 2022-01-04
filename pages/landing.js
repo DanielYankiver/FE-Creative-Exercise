@@ -1,10 +1,9 @@
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import { useEffect, useState } from 'react';
 import Footer2 from '../components/Footer2';
 
 export default function landing() {
-
   
   return (
     <div className="landing">
