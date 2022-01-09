@@ -2,8 +2,8 @@ import Header from '../components/Header';
 import { useState } from 'react';
 import { BanIcon } from '@heroicons/react/solid';
 
-export default function landing() {
-  const [toggleWind, setToggleWind] = useState(false)
+export default function Landing() {
+  const [toggleWind, setToggleWind] = useState(false);
 
   function handleWind() {
     setToggleWind(!toggleWind)
