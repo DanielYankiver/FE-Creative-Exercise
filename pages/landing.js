@@ -5,6 +5,10 @@ import { BanIcon } from '@heroicons/react/solid';
 export default function landing() {
   const [toggleWind, setToggleWind] = useState(false)
 
+  function handleWind() {
+    setToggleWind(!toggleWind)
+  }
+
   return (
     <div className="landing">
       <div className="w-full h-screen bg-teal-700 md:bg-red-700 lg:bg-blue-700 xl:bg-teal-700">
@@ -42,7 +46,7 @@ export default function landing() {
         </div>
         <div className="flex justify-center mt-6 md:mt-0">
           <div className="md:absolute md:bottom-24">
-            <button onClick={() => setToggleWind(!toggleWind)} className="">
+            <button onClick={handleWind}>
               {toggleWind ? 
                 <div className="border-4 rounded-full w-44 h-16 md:w-64 md:h-24 border-teal-500 text-white bg-teal-600 flex justify-center items-center">
                   {/* <div className="text-3xl mr-4">No Wind</div> */}
