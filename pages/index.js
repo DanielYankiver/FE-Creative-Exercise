@@ -36,7 +36,14 @@ export default function Home() {
               </Link>
               <button className="bg-teal-100 text-teal-500 text-xl font-medium w-full h-10 rounded-md mt-4">RESTORE WALLET</button>
             </div>
-            <span className="md:text-lg text-teal-50 flex justify-center mt-4 ">Need Help? Contact <a href="https://www.google.com/" className="text-teal-200 pl-1 ">Ribn Support</a></span>
+            <span className="md:text-base lg:text-sm xl:text-base text-teal-50 flex justify-center mt-4 ">
+              <div>
+                Need Help? Contact 
+              </div>
+              <a href="https://www.google.com/" className="text-teal-200 pl-1 ">
+                Ribn Support
+              </a>
+            </span>
           </form>
         </div>
       </div>
