@@ -6,6 +6,10 @@
   animation: logo-rotate 2s ease-in-out;
 }
 
+.spin-always {
+  animation: logo-rotate 2s infinite; 
+}
+
 @keyframes logo-rotate {
   from {
     transform: rotateY(0);
