@@ -11,7 +11,7 @@ export default function Landing() {
 
   return (
     <div className="landing">
-      <div className="w-full h-screen bg-teal-700 md:bg-red-700 lg:bg-blue-700 xl:bg-teal-700">
+      <div className="w-full h-screen bg-teal-700">
         <Header />
         
         <div className="flex justify-center content-center z-10">
@@ -20,14 +20,14 @@ export default function Landing() {
           </div>
           <div className="z-30 ">
             <div className="spin cursor-pointer">
-              <div className="flex justify-center md:w-96 mt-0 md:mt-6 md:absolute md:right-48 md:top-32">
+              <div className="flex justify-center md:w-96 mt-0 md:mt-6 md:absolute md:right-48 lg:top-6 lg:right-12 xl:top-20 xl:right-48">
                 <div>
-                  <img src="../topl-Ribn-icon-large.png" className="w-32 md:w-60 lg:w-5/6"/>
+                  <img src="../topl-Ribn-icon-large.png" className="w-32 md:w-40 lg:w-5/6"/>
                 </div>
               </div>
             </div>
-            <div className="flex justify-center mt-4 md:mt-0 md:absolute md:left-72 md:top-44">
-              <div className="text-teal-700 cursor-pointer border-4 rounded-lg w-10/12 md:w-1/2 lg:w-3/5 flex-col justify-center bg-white border-teal-500 hover:text-white hover:bg-teal-600 active:bg-transparent active:text-teal-500">
+            <div className="flex justify-center mt-4 md:mt-48 lg:mt-0 lg:absolute lg:left-16 lg:top-20 xl:left-44 xl:top-32">
+              <div className="text-teal-700 cursor-pointer border-4 rounded-lg w-10/12 md:w-3/5 lg:w-3/5 flex-col justify-center bg-white border-teal-500 hover:text-white hover:bg-teal-600 active:bg-transparent active:text-teal-500">
                 <div className="mt-2 -mb-8 md:mt-4 md:-mb-6">
                   <img src="../topl-leaf2.svg" className="w-12 md:w-24"/>
                 </div>
@@ -44,12 +44,11 @@ export default function Landing() {
           </div>
           </div>
         </div>
-        <div className="flex justify-center mt-6 md:mt-0">
-          <div className="md:absolute md:bottom-24">
+        <div className="flex justify-center mt-6 md:mt-4">
+          <div className="lg:absolute lg:bottom-72 xl:bottom-32 z-40">
             <button onClick={handleWind}>
               {toggleWind ? 
                 <div className="border-4 rounded-full w-44 h-16 md:w-64 md:h-24 border-teal-500 text-white bg-teal-600 flex justify-center items-center">
-                  {/* <div className="text-3xl mr-4">No Wind</div> */}
                   <BanIcon className="h-14 w-14 md:h-20 md:w-20 text-white mr-2 opacity-90" />
                   <img src="../wind-icon.png" className="w-10 md:w-14 mt-1"/>
                 </div>
